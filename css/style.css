@@ -1,0 +1,174 @@
+
+@media screen and (min-width: 720px) {
+    .carousel-inner img{
+        height:30rem;
+      }
+  }
+  @media screen and (max-width: 640px) {
+        .carousel-caption h3{
+            font-weight: 300;
+            font-size: 2rem;
+            font-family: 'Lobster', cursive;
+        }
+  }
+  @media screen and (min-width: 650px) {
+    .carousel-caption h3{
+        font-weight: 500;
+        font-size: 3rem;
+        font-family: 'Lobster', cursive;
+    }
+}
+.icon i{
+    font-size: xx-large;
+}
+
+/* css for project section*/
+/*  Css for Item carousel  */
+.item_header {
+	color: var(--components-color);
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+.item_header::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: var(--components-color);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+.item_carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.item_carousel .carousel-item {
+	color: var(--accessories-review-text-color);
+	min-height: 325px;
+    text-align: center;
+	overflow: hidden;
+}
+
+.item_carousel .thumb-wrapper {
+	padding: 25px 15px;
+	background: var(--accessories-review-card-color);
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 3px;
+}
+.item_carousel .carousel-item .img-box {
+	height: 120px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.item_carousel .carousel-item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	margin-bottom: 5px;
+}
+.item_carousel .thumb-content .btn {
+	color: var(--components-color);
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid var(--components-color);;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.item_carousel .thumb-content .btn:hover, .item_carousel .thumb-content .btn:focus {
+	color: var(--slider-arrow-color);
+	background: var(--components-color);
+	box-shadow: none;
+}
+.item_carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.item_carousel .slide_button {
+	height: 44px;
+	width: 40px;
+	background: var(--components-color);
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.item_carousel .slide_button:hover {
+	background: var(--components-color);
+	opacity: 1;
+}
+.item_carousel .slide_button i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: var(--slider-arrow-color);
+	text-shadow: none;
+    font-weight: bold;
+}
+.item_carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.item_carousel .item-price del {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.item_carousel .prev_item_slide i {
+	margin-left: -2px;
+}
+.item_carousel .next_item_slide i {
+	margin-right: -4px;
+}
+.item_carousel .item_carousel_indicators {
+	bottom: -50px;
+}
+.item_carousel_indicators li, .item_carousel_indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.item_carousel_indicators li {	
+	background: rgba(255, 153, 0,0.7)
+}
+.item_carousel_indicators li.active {	
+	background: rgba(255, 153, 0,0.9)
+}
+.carousel_small{
+	display: none;
+}
+@media screen and (max-width: 415px) {
+	.carousel_small{
+		display: block;
+	}
+	.carousel_big{
+		display: none;
+	}
+	.item_carousel .thumb-wrapper {
+		padding:10px 15px;
+	}
+}
