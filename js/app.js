@@ -1,6 +1,6 @@
 $(function() {
     $('#WAButton').floatingWhatsApp({
-      phone: '+91-7718035497', //WhatsApp Business phone number International format-
+      phone: '+91-8767408258', //WhatsApp Business phone number International format-
       //Get it with Toky at https://toky.co/en/features/whatsapp.
       headerTitle: 'Chat with us on WhatsApp!', //Popup Title
       popupMessage: 'Hello, how can we help you?', //Popup Message
